@@ -1,0 +1,39 @@
+* {
+    margin:1%;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#current-image-container {
+    background-color:black;
+    width:98%;
+    padding:30px 40px;
+    display:block;
+    color:white;
+}
+
+#search-history {
+    list-style-type: none;
+    padding: 0;
+}
+
+#search-history li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    text-decoration: underline;
+    color: blue;
+}
+
+#current-image-container img {
+    padding:10px;
+    display: block;
+  width: 100%;
+}
+
+#current-image-container p{
+    display: block;
+     width: 100%; 
+     font-weight: 400;
+        
+}
+
